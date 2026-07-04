@@ -1,104 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana Wandre | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <h1 class="logo">Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section id="hero">
-    <div class="container">
-      <div class="hero-content">
-        <h1>Hi, I'm <span class="highlight">Sanjana Wandre</span></h1>
-        <h2>BSc Computer Science Student</h2>
-        <p>I build simple and smart websites with creativity</p>
-        <a href="#projects" class="btn">View My Work</a>
-      </div>
-    </div>
-  </section>
+    <!-- ================= NAVBAR ================= -->
 
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-content">
-        <div class="about-text">
-            <p>I’m Sanjana Wandre, a passionate BSc Computer Science student from Model College, Dombivli. I enjoy building web apps, exploring AI, IoT, and working on real-world mini-projects. I’m driven to use tech to make a difference!</p>
+    <header>
+
+        <div class="container nav-container">
+
+            <h2 class="logo">Sanjana<span>.</span></h2>
+
+            <nav>
+
+                <ul id="menu">
+
+                    <li><a href="#home">Home</a></li>
+
+                    <li><a href="#about">About</a></li>
+
+                    <li><a href="#experience">Experience</a></li>
+
+                    <li><a href="#skills">Skills</a></li>
+
+                    <li><a href="#projects">Projects</a></li>
+
+                    <li><a href="#education">Education</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="skills">
-    <div class="container">
-      <h2 class="section-title">My Skills</h2>
-      <div class="skills-container">
-        <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
-        <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
-        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
-        <div class="skill"><i class="fab fa-code"></i> Python</div>
-        <div class="skill"><i class="fab fa-database"></i>MySQL & MongoDB</div>
-        <div class="skill"><i class="fas fa-terminal"></i> Flask & Node.js</div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section id="projects">
-    <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>College Website</h3>
-          <p>A college info portal with admin login  using Flask </p>
-          <a href="#" class="btn-small">View Project</a>
+    <!-- ================= HERO ================= -->
+
+    <section id="home">
+
+        <div class="container hero">
+
+            <div class="hero-text">
+
+                <p>Hello, I'm</p>
+
+                <h1>Sanjana Wandre</h1>
+
+                <h2>
+                    <span class="typing"></span>
+                </h2>
+
+                <p class="hero-desc">
+
+                    Computer Science graduate with internship experience in
+                    Python Development and Web Development.
+                    Passionate about Software Testing, QA, Web Development,
+                    and continuously learning new technologies.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        View Projects
+                    </a>
+
+                    <a href="resume.pdf"
+                        class="btn btn-outline"
+                        download>
+                        Download Resume
+                    </a>
+
+                </div>
+
+                <div class="social">
+
+                    <a href="https://github.com/yourusername"
+                        target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourprofile"
+                        target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                    <a href="mailto:wandresanjana27@gmail.com">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
-        <div class="project-card">
-          <h3>Task Manager App</h3>
-          <p>A React-based task management application with drag-and-drop</p>
-          <a href="#" class="btn-small">View Project</a>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <h2 class="title">About Me</h2>
+
+            <div class="about">
+
+                <p>
+
+                    I am a Computer Science graduate seeking an
+                    entry-level opportunity in QA Testing,
+                    Software Testing, IT Support, or Web Development.
+
+                    I have completed internships in Python Development
+                    and Web Development where I gained practical exposure
+                    to debugging, frontend development,
+                    and application testing.
+
+                    My technical skills are at a basic to intermediate level,
+                    and I enjoy learning new technologies and solving problems.
+
+                </p>
+
+            </div>
+
         </div>
-        <div class="project-card">
-          <h3>Portfolio Website</h3>
-          <p>A responsive portfolio website showcasing my work</p>
-          <a href="#" class="btn-small">View Project</a>
+
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience">
+
+        <div class="container">
+
+            <h2 class="title">
+                Experience
+            </h2>
+
+            <div class="timeline">
+
+                <div class="card">
+
+                    <h3>
+                        Python Development Intern
+                    </h3>
+
+                    <h4>
+                        TechnoHacks Solutions Pvt. Ltd.
+                    </h4>
+
+                    <span>Dec 2025 - Jan 2026</span>
+
+                    <ul>
+
+                        <li>Developed command-line Python applications.</li>
+
+                        <li>Worked with loops, functions and dictionaries.</li>
+
+                        <li>Debugged application logic.</li>
+
+                        <li>Used Python and MongoDB.</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>
+                        Web Development Intern
+                    </h3>
+
+                    <h4>
+                        TechnoHacks Solutions Pvt. Ltd.
+                    </h4>
+
+                    <span>Apr 2025 - May 2025</span>
+
+                    <ul>
+
+                        <li>Built responsive websites.</li>
+
+                        <li>Used HTML, CSS and JavaScript.</li>
+
+                        <li>Performed frontend testing.</li>
+
+                        <li>Debugged UI issues.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="contact-info">
-        <a href="mailto:wandresanjana27@gmail.com"><i class="fas fa-envelope"></i> wandresanjana27@gmail.com</a>
-        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <p><i class="fas fa-phone"></i>1234567890</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Sanjana Wandre. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- ================= SKILLS ================= -->
 
-  <script src="script.js"></script>
+    <section id="skills">
+
+        <div class="container">
+
+            <h2 class="title">
+                Skills
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">Python</div>
+
+                <div class="skill-card">HTML</div>
+
+                <div class="skill-card">CSS</div>
+
+                <div class="skill-card">JavaScript</div>
+
+                <div class="skill-card">Flutter</div>
+
+                <div class="skill-card">Flask</div>
+
+                <div class="skill-card">SQL</div>
+
+                <div class="skill-card">MySQL</div>
+
+                <div class="skill-card">MongoDB</div>
+
+                <div class="skill-card">Manual Testing</div>
+
+                <div class="skill-card">Functional Testing</div>
+
+                <div class="skill-card">UI Testing</div>
+
+                <div class="skill-card">Debugging</div>
+
+                <div class="skill-card">GitHub</div>
+
+                <div class="skill-card">VS Code</div>
+
+                <div class="skill-card">Android Studio</div>
+
+                <div class="skill-card">Linux</div>
+
+                <div class="skill-card">Excel</div>
+
+                <div class="skill-card">Power BI</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <div class="container">
+
+            <h2 class="title">
+                Projects
+            </h2>
+
+            <div class="projects">
+
+                <div class="project">
+
+                    <h3>College Website</h3>
+
+                    <p>
+
+                        Responsive website developed using HTML,
+                        CSS, JavaScript, Flask, Python and MySQL.
+
+                    </p>
+
+                </div>
+
+                <div class="project">
+
+                    <h3>AquaCart</h3>
+
+                    <p>
+
+                        Flutter-based aquarium e-commerce
+                        application with product browsing,
+                        seller management and ordering.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+
+        <div class="container">
+
+            <h2 class="title">
+                Education
+            </h2>
+
+            <div class="card">
+
+                <h3>B.Sc. Computer Science</h3>
+
+                <p>Model College, Dombivli</p>
+
+                <p>CGPA: <strong>8.6 / 10</strong></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2 class="title">
+                Contact
+            </h2>
+
+            <div class="contact">
+
+                <p>
+
+                    <i class="fas fa-phone"></i>
+
+                    8652057690
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-envelope"></i>
+
+                    wandresanjana27@gmail.com
+
+                </p>
+
+                <p>
+
+                    <i class="fas fa-location-dot"></i>
+
+                    Thane, Maharashtra, India
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 Sanjana Wandre |
+            Designed with ❤️
+
+        </p>
+
+    </footer>
+
+    <button id="topBtn">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
